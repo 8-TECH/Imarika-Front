@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Imarika Foundation - Empowering communities through education, health, environmental conservation, agribusiness, and disaster response.">
+    <meta name="author" content="Imarika Foundation">
+    <title>Imarika Foundation</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        
+        <a href="#" class="logo">
+            <img src="images/logo.jpeg" alt="Imarika">
+        </a>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </nav>
+
+
+    <!-- 1. Homepage -->
+    <header class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1>Empowering Communities. Transforming Lives.</h1>
+            <p>Join us on a journey of creating secure, empowered, and resilient communities.</p>
+            <div class="cta-buttons">
+                <a href="#donate" class="cta-button">Donate Now</a>
+                <a href="#join" class="cta-button secondary">Join Us</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. About Us -->
+    <section class="about-us" data-aos="fade-right" id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>The Imarika Foundation is on a mission to provide education, healthcare, environmental conservation, and more to underprivileged communities.</p>
+        </div>
+        <div class="core-pillars">
+            <div class="pillar" data-aos="flip-left">
+                <img src="images/technology.jpg" alt="Education">
+                <p>Education</p>
+            </div>
+            <div class="pillar" data-aos="flip-left" data-aos-delay="100">
+                <img src="images/study11.jpg" alt="Health">
+                <p>Health</p>
+            </div>
+            <div class="pillar" data-aos="flip-left" data-aos-delay="200">
+                <img src="images/students.jpg" alt="Environment">
+                <p>Environment</p>
+            </div>
+            <div class="pillar" data-aos="flip-left" data-aos-delay="300">
+                <img src="images/students.jpg" alt="Agribusiness">
+                <p>Agribusiness</p>
+            </div>
+            <div class="pillar" data-aos="flip-left" data-aos-delay="400">
+                <img src="images/study11.jpg" alt="Disaster Response">
+                <p>Disaster Response</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Programs -->
+    <section class="programs" id="programs">
+        <div class="container">
+            <h2 data-aos="fade-up">Our Programs</h2>
+            <div class="programs-container">
+                <div class="program-card" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Education</h3>
+                    <p>Scholarships, mentorship programs, and educational resources to foster the next generation of leaders.</p>
+                    <a href="#education" class="cta-button">Learn More</a>
+                </div>
+                <div class="program-card" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Health</h3>
+                    <p>Free health camps and medical outreach for underserved communities to ensure better healthcare access.</p>
+                    <a href="#health" class="cta-button">Learn More</a>
+                </div>
+                <div class="program-card" data-aos="fade-up" data-aos-delay="300">
+                    <h3>Environment</h3>
+                    <p>Tree planting, conservation initiatives, and sustainability programs to protect our planet.</p>
+                    <a href="#environment" class="cta-button">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Events -->
+    <section class="events" id="events">
+        <div class="container">
+            <h2 data-aos="fade-up">Upcoming Events</h2>
+            <div class="event" data-aos="zoom-in">
+                <h3>Fundraising Walk - March 2024</h3>
+                <p>Join us for a fundraising walk to support health and education programs.</p>
+                <a href="#register" class="cta-button">Register Now</a>
+            </div>
+            <div class="past-events">
+                <h3>Past Events</h3>
+                <div class="event" data-aos="zoom-in" data-aos-delay="100">
+                    <h4>Annual General Meeting 2023</h4>
+                    <p>Our AGM in Kilifi was a milestone event for the foundation's progress...</p>
+                    <a href="#event-gallery" class="more-info">View Photos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Get Involved -->
+    <section class="get-involved" id="get-involved">
+        <div class="container">
+            <h2 data-aos="fade-up">Get Involved</h2>
+            <div class="involved-options">
+                <div class="option" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Volunteer</h3>
+                    <p>Become a part of our community and contribute your time to meaningful causes.</p>
+                    <a href="#volunteer" class="cta-button">Join Us</a>
+                </div>
+                <div class="option" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Donate</h3>
+                    <p>Your donation can change lives. Support education, healthcare, and the environment today.</p>
+                    <a href="#donate" class="cta-button">Donate Now</a>
+                </div>
+                <div class="option" data-aos="fade-up" data-aos-delay="300">
+                    <h3>Become a Member</h3>
+                    <p>Be a part of something bigger. Join the Imarika Foundation family.</p>
+                    <a href="#membership" class="cta-button">Join Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Contact Us -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us to learn more about our initiatives and how you can help.</p>
+            <p>Imarika DT Sacco Plaza, Kilifi</p>
+            <p>Email: <a href="mailto:info@imarika-foundation.org">info@imarika-foundation.org</a></p>
+            <p>Phone: <a href="tel:+254790289989">0790 289 989</a></p>
+            <div class="map" id="map"></div> <!-- Placeholder for Google Map -->
+        </div>
+    </section>
+
+   
+    <footer>
+        <p>&copy; 2024 Imarika Foundation. All Rights Reserved.</p>
+        <p>Follow us on: <a href="#"><i class="fab fa-facebook"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fab fa-instagram"></i></a></p>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        function toggleMenu() {
+            const navMenu = document.querySelector('.navbar ul');
+            navMenu.classList.toggle('show');
+        }
+
+        AOS.init();
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+</body>
+</html>
