@@ -45,10 +45,12 @@ section {
 }
 
 
-h1,h2, h3, h4 {
+h1, h2, h3, h4 {
     font-family: 'Lora', serif;
     color: #0066cc;
 }
+
+
 
 .hero {
     background: url('images/imarika.jpg') center/cover no-repeat;
@@ -82,8 +84,9 @@ h1,h2, h3, h4 {
 
 
 .hero h1 {
-    font-size: 3rem;
     margin-bottom: 10px;
+    font-size: 3rem;
+
 }
 
 .hero p {
@@ -253,7 +256,7 @@ footer a:hover {
 
 @media (max-width: 480px) {
     .hero h1 {
-        font-size: 1.8rem;
+        /* font-size: 1.8rem; */
     }
 
     .hero p {
@@ -271,7 +274,7 @@ footer a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f9f9f9;
+    background-color: #fff;
     padding: 2px 20px;
     position: sticky;
     top: 0;
@@ -318,7 +321,7 @@ footer a:hover {
 }
 
 .hero h1 {
-    font-size: 2.2rem;
+    /* font-size: 1rem; */
 }
 
 .hero p {
@@ -333,7 +336,7 @@ footer a:hover {
 
 @media (max-width: 480px) {
 .hero h1 {
-    font-size: 1.8rem;
+    /* font-size: 1rem; */
 }
 
 .hero p {
@@ -411,7 +414,7 @@ footer a:hover {
 }
 
 .hero h1 {
-    font-size: 3.5rem;
+    /* font-size: 3.5rem; */
     margin-bottom: 20px;
     animation: fadeIn 2s ease-in;
 }
